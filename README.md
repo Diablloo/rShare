@@ -1,6 +1,9 @@
 # rShare
 PHP Based Open Source File Sharing Service(Now Turning to Open Source...)
 
+# Information
+## I am turning rShare to Open Source... So there are some wrong in source... Please Do not use rShare before 1.0 Realease!!
+
 ##1. Introduction
 First, Thank you to use this! rShare will better and better. 
 
