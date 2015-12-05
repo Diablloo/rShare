@@ -1,0 +1,12 @@
+ErrorDocument 401 "Unauthorized"
+ErrorDocument 403 "Forbidden"
+ErrorDocument 404 /404.php
+
+
+
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+php_value max_input_time 0
+php_value max_execution_time 0
+php_value memory_limit 2000M
+

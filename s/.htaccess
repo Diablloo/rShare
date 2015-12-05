@@ -1,0 +1,12 @@
+Options +FollowSymLinks -MultiViews
+
+RewriteEngine On
+#RewriteBase /d/
+
+
+# Internally forward /index/2 to /index.php?id=2
+#RewriteRule ^/([0-9]+)/?$ /index?fid=$1 [QSA,NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [QSA,L]

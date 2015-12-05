@@ -1,0 +1,7 @@
+Options +FollowSymLinks -MultiViews
+
+RewriteEngine On
+RewriteRule ^/([0-9]+)/?$ index.php?fid=$1 [QSA,NC,L]
+
+php_value session.cookie_lifetime 300
+#5 Minutes
