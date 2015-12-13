@@ -114,7 +114,7 @@ function FileSizeConvert($bytes) //I got this source from PHP.net. Thanks to lin
 <br>
 <? showAD(); ?>
 <footer>
-<? echo SITENAME."'s File Sharing Service. Powered by ".PRODUCTNAME." v".RSHAREVER; ?>
+<? echo SITENAME."'s File Sharing Service. Powered by ".PRODUCTNAME." v".RSHAREVER; ?> -- Normal Share Mode
 </footer>
 </body>
 </html>
